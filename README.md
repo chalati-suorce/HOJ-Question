@@ -1,36 +1,80 @@
-# Code
+# HOJ 题库
 
+这是一个用于存储和整理 HOJ（Hangzhou Online Judge）在线评测系统题目的代码仓库。包含使用 C 和 C++ 语言编写的算法题解。
 
+## 项目结构
 
-#### 软件架构
+```
+HOJ-Question/
+├── c_code/          # C 语言题解
+│   ├── 2000.c      # 题目 2000 的 C 语言解法
+│   └── 2001.c      # 题目 2001 的 C 语言解法
+├── cpp_code/        # C++ 语言题解
+│   ├── 2000.cpp    # 题目 2000 的 C++ 解法
+│   ├── 2001.cpp    # 题目 2001 的 C++ 解法
+│   ├── 2002.cpp    # 题目 2002 的 C++ 解法
+│   ├── 2003.cpp    # 题目 2003 的 C++ 解法
+│   ├── 2004.cpp    # 题目 2004 的 C++ 解法
+│   ├── 2005.cpp    # 题目 2005 的 C++ 解法
+│   └── 2006.cpp    # 题目 2006 的 C++ 解法
+├── output/          # 编译生成的可执行文件（不提交到 Git）
+├── .vscode/         # VSCode 配置文件（不提交到 Git）
+└── README.md        # 项目说明文档
+```
 
+## 题目列表
 
+### 已完成的题目
 
-#### 安装教程
+- **2000** - ASCII码排序
+- **2001** - 计算两点间的距离
+- **2002** - 计算球体积
+- **2003** - 求绝对值
+- **2004** - 成绩转换
+- **2005** - 第几天？
+- **2006** - 求奇数的乘积
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 使用说明
 
-#### 使用说明
+### 编译运行
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### C 语言程序
+```bash
+gcc c_code/2000.c -o output/2000.exe
+./output/2000.exe
+```
 
-#### 参与贡献
+#### C++ 程序
+```bash
+g++ cpp_code/2000.cpp -o output/2000.exe
+./output/2000.exe
+```
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+### 开发环境
 
+- **编译器**: GCC/G++
+- **开发工具**: Visual Studio Code
+- **操作系统**: Windows/Linux/macOS
 
-#### 特技
+## 文件说明
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- `.gitignore`: 配置 Git 忽略规则，排除编译生成的可执行文件和 IDE 配置文件
+- 所有源代码文件都按照题目编号命名，便于查找和管理
+
+## 贡献指南
+
+欢迎提交新的题解或改进现有代码！
+
+1. Fork 本仓库
+2. 创建新的分支 (`git checkout -b feature/新题解`)
+3. 提交更改 (`git commit -m '添加题目xxx的解法'`)
+4. 推送到分支 (`git push origin feature/新题解`)
+5. 创建 Pull Request
+
+## 许可证
+
+本项目仅供学习和参考使用。
+
+## 联系方式
+
+如有问题或建议，欢迎通过 GitHub Issues 联系。
