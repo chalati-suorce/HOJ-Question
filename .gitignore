@@ -1,0 +1,14 @@
+# VSCode configuration files
+.vscode/
+
+# Compiled executables
+*.exe
+output/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
